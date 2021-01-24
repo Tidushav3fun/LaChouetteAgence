@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+img{
+    max-width: 100%;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -274,7 +278,11 @@ a:hover {
 
 .row-no-gutters {
     margin-right: 0;
-    margin-left: 0;
+    margin-left: 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -700,8 +708,12 @@ p {
 }
 
 .social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin-right: 10px;
 }
 
 h2 {
