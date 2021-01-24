@@ -1,2 +1,3 @@
 # LaChouetteAgence
-repo pour le projet 4 - La Chouette agence
+Projet 4 - La Chouette agence
+Kévin Cabaret
